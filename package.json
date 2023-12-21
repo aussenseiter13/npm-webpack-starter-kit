@@ -1,0 +1,16 @@
+{
+    "name": "npm-webpack-lean-starter-kit",
+    "version": "0.0.1",
+    "author": "aussenseiter13",
+    "scripts": {
+        "init": "npm install && npm run build",
+        "build": "webpack build --config webpack.config.js",
+        "watch": "webpack build --config webpack.config.js -w"
+    },
+    "devDependencies": {
+        "webpack": "*",
+        "webpack-cli": "*",
+        "css-loader": "*",
+        "style-loader": "*"
+    }
+}
